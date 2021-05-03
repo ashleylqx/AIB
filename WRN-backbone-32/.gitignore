@@ -1,0 +1,17 @@
+# idea folder
+.idea/
+__pycache__/
+.vscode/
+
+# local config file
+# utils/local_config.py
+
+# temporal python files
+*.py[cod]
+*.out
+*.npy
+*.pdf
+
+# attention maps
+att_maps*/*
+

@@ -1,0 +1,24 @@
+# idea folder
+.idea/
+__pycache__/
+.vscode/
+
+
+# temporal python files
+*.py[cod]
+*.out
+*.npy
+*.pdf
+
+# attention maps
+*/att_maps*/
+
+# dataset files
+dataset/*
+
+# model files
+VGG-backbone-32/VGG_32/*
+WRN-backbone-32/WRN_32/*
+
+# log files
+VGG-backbone-32/tf_log/*

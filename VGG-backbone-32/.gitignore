@@ -1,0 +1,25 @@
+
+# idea folder
+.idea/
+
+# idea folder
+__pycache__/
+
+# local config
+# local_config.py
+
+# model files
+logs/*
+logs_my/*
+VGG_32/*
+
+# attention maps
+att_maps*/*
+
+# temporal python files
+*.py[cod]
+
+# tensorboard logs
+tf_log/*
+
+
