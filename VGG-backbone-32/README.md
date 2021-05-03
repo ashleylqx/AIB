@@ -33,14 +33,12 @@ Train `vgg_va_qt` model:
 
 ```
 python cifar_va.py --phase train_qt --env_name vgg_va_qt_cifar10 --lr 0.001 
-python cifar_va.py --phase train_qt --env_name tmp --lr 0.001 --gpu_id 1
 ```
 
 Save examplar attention maps for `vgg_va_qt` model:
 
 ```
 python cifar_va.py --phase save_att_qt --env_name vgg_va_qt_cifar10 --lr 0.001
-python cifar_va.py --phase save_att_qt --env_name tmp --lr 0.001 --gpu_id 1
 ```
 
 

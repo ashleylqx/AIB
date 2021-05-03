@@ -50,7 +50,6 @@ Train `vgg_va` model:
 
 ```
 python cifar_va.py -a wrn_va --dataset cifar100 --checkpoint WRN_32/cifar100/WRN-VA-28-10-drop_k512
-python cifar_va.py -a wrn_va --dataset cifar100 --checkpoint WRN_32/tmp --gpu_id 2
 ```
 
 The examplar attention maps can be found in `att_maps/cifar100/WRN-VA-28-10-drop_k512`.
@@ -58,7 +57,6 @@ Or use the following command to generate examplar attention maps from trained mo
 
 ```
 python cifar_va.py --phase save_att_va -a wrn_va --dataset cifar100 --resume WRN_32/cifar100/WRN-VA-28-10-drop_k512
-python cifar_va.py --phase save_att_va -a wrn_va --dataset cifar100 --resume WRN_32/tmp --gpu_id 2
 ```
 
 
@@ -66,7 +64,6 @@ Train `vgg_va_qt` model:
 
 ```
 python cifar_va.py -a wrn_va_qt --dataset cifar100 --checkpoint WRN_32/cifar100/WRN-VA-28-10-drop_qt20_k512 --qt_num 20
-python cifar_va.py -a wrn_va_qt --dataset cifar100 --checkpoint WRN_32/tmp --qt_num 20 --gpu_id 3
 ```
 
 The examplar attention maps can be found in `att_maps/cifar100/WRN-VA-28-10-drop_qt20_k512`.
@@ -74,7 +71,6 @@ Or use the following command to generate examplar attention maps from trained mo
 
 ```
 python cifar_va.py --phase save_att_va_qt -a wrn_va_qt --dataset cifar100 --resume WRN_32/cifar100/WRN-VA-28-10-drop_qt20_k512 --qt_num 20
-python cifar_va.py --phase save_att_va_qt -a wrn_va_qt --dataset cifar100 --resume WRN_32/tmp --qt_num 20 --gpu_id 3
 ```
 
 ## Citation
