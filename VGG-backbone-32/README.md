@@ -7,7 +7,7 @@ PyTorch code for "Information Bottleneck Approach to Spatial Attention Learning 
 
 Google Drive: Coming soon.
 
-Baidu Pan: Coming soon.
+Baidu Pan: https://pan.baidu.com/s/1GAIz4tVz619GeLuVxb3hXQ, code: zw1s
 
 
 ## Experiments
