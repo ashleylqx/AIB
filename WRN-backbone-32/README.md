@@ -17,7 +17,7 @@ To train with multiple GPUs, use parameters such as ` --gpu_id 0,1,2,3`.
 
 ### CIFAR-10
 
-Train `vgg_va` model:
+Train `vgg_aib` model:
 
 ```
 python cifar_va.py -a wrn_va --checkpoint WRN_32/cifar10/WRN-VA-28-10-drop_k512
@@ -31,7 +31,7 @@ python cifar_va.py --phase save_att_va -a wrn_va --resume WRN_32/cifar10/WRN-VA-
 ```
 
 
-Train `vgg_va_qt` model:
+Train `vgg_aib_qt` model:
 
 ```
 python cifar_va.py -a wrn_va_qt --checkpoint WRN_32/cifar10/WRN-VA-28-10-drop_qt50_k512 --qt_num 50
@@ -46,7 +46,7 @@ python cifar_va.py --phase save_att_va_qt -a wrn_va_qt --resume WRN_32/cifar10/W
 
 ### CIFAR-100
 
-Train `vgg_va` model:
+Train `vgg_aib` model:
 
 ```
 python cifar_va.py -a wrn_va --dataset cifar100 --checkpoint WRN_32/cifar100/WRN-VA-28-10-drop_k512
@@ -60,7 +60,7 @@ python cifar_va.py --phase save_att_va -a wrn_va --dataset cifar100 --resume WRN
 ```
 
 
-Train `vgg_va_qt` model:
+Train `vgg_aib_qt` model:
 
 ```
 python cifar_va.py -a wrn_va_qt --dataset cifar100 --checkpoint WRN_32/cifar100/WRN-VA-28-10-drop_qt20_k512 --qt_num 20
