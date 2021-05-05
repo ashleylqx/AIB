@@ -42,7 +42,7 @@ If you find this repository is useful, please cite the following reference.
 ```
 @inproceedings{lai2021information,
     title = {Information Bottleneck Approach to Spatial Attention Learning},
-    author = {Lai, Qiuxia and Li, Yu and Zeng, Ailing and Liu, Minhao and Xu, Qiang and Sun, Hanqiu},
+    author = {Lai, Qiuxia and Li, Yu and Zeng, Ailing and Liu, Minhao and Sun, Hanqiu and Xu, Qiang},
     booktitle = {International Joint Conference on Artificial Intelligence},
     year = {2021}
 }
