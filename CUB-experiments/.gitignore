@@ -1,0 +1,18 @@
+
+# idea folder
+.idea/
+
+# idea folder
+__pycache__/
+
+# model folder
+VGG_WRN_224/
+
+# tensorboard log folder
+summary/
+
+# attention map folder
+att_maps/
+
+# temporal python files
+*.py[cod]

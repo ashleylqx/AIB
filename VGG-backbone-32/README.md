@@ -7,7 +7,7 @@ PyTorch code for "Information Bottleneck Approach to Spatial Attention Learning 
 
 Google Drive: Coming soon.
 
-Baidu Pan: https://pan.baidu.com/s/1GAIz4tVz619GeLuVxb3hXQ, code: zw1s
+Baidu Pan: https://pan.baidu.com/s/1GAIz4tVz619GeLuVxb3hXQ, code: `zw1s`
 
 
 ## Experiments
@@ -19,25 +19,25 @@ To train with multiple GPUs, use parameters such as ` --gpu_id 0,1,2,3`.
 
 Train `vgg_aib` model:
 
-```
+```commandline
 python cifar_va.py --env_name vgg_va_cifar10 --lr 0.01
 ```
 
 Save examplar attention maps for `vgg_aib` model:
 
-```
+```commandline
 python cifar_va.py --phase save_att --env_name vgg_va_cifar10 --lr 0.01
 ```
 
 Train `vgg_aib_qt` model:
 
-```
+```commandline
 python cifar_va.py --phase train_qt --env_name vgg_va_qt_cifar10 --lr 0.001 
 ```
 
 Save examplar attention maps for `vgg_aib_qt` model:
 
-```
+```commandline
 python cifar_va.py --phase save_att_qt --env_name vgg_va_qt_cifar10 --lr 0.001
 ```
 
@@ -47,25 +47,25 @@ python cifar_va.py --phase save_att_qt --env_name vgg_va_qt_cifar10 --lr 0.001
 
 Train `vgg_aib` model:
 
-```
+```commandline
 python cifar_va.py --env_name vgg_va_cifar100 --dataset CIFAR100 --lr 0.01
 ```
 
 Save examplar attention maps for `vgg_aib` model:
 
-```
+```commandline
 python cifar_va.py --phase save_att --env_name vgg_va_cifar100 --dataset CIFAR100 --lr 0.01
 ```
 
 Train `vgg_aib_qt` model:
 
-```
+```commandline
 python cifar_va.py --phase train_qt --env_name vgg_va_qt_cifar100 --dataset CIFAR100 --lr 0.001 --qt_num 50 
 ```
 
 Save examplar attention maps for `vgg_aib_qt` model:
 
-```
+```commandline
 python cifar_va.py --phase save_att_qt --env_name vgg_va_qt_cifar100 --dataset CIFAR100 --lr 0.001 --qt_num 50 
 ```
 

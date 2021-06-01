@@ -106,20 +106,4 @@ kmin = None
 alpha = 0.7
 num_maps = 4
 
-# more path variables
-PATH_EVENT = base_path + 'DataSets/Event_8/'
-PATH_ACTION = base_path + 'DataSets/Action_40/'
-PATH_SCENE = base_path + 'DataSets/Scene_67/'
-PATH_OD = base_path + 'DataSets/ObjectDiscovery/'
-PATH_CALTECH101 = base_path + 'DataSets/Caltech_101/'
-PATH_CALTECH256 = base_path + 'DataSets/Caltech_256/'
-
-feature_va_folder = 'features_va'
-svm_model_va_folder = 'svm_model_va'
-
-PATH_TINYIM = base_path + 'DataSets/tiny-imagenet-200/'
-
-feature_freq_folder = 'freq_results'
-feature_aug_folder = 'info_aug_results'
-vis_folder = '../va_visualization'
 

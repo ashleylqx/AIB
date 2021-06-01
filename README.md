@@ -6,13 +6,11 @@ Pytorch code for "Information Bottleneck Approach to Spatial Attention Learning 
 What's in this repo so far:
  * Code for CIFAR-10/-100 experiments (VGG backbone) ([this folder](VGG-backbone-32))
  * Code for CIFAR-10/-100 experiments (WRN backbone) ([this folder](WRN-backbone-32))
-
-Coming:
- * Code for CUB experiments (VGG and WRN backbones)
+ * Code for CUB experiments (VGG and WRN backbone) ([this folder](CUB-experiments))
 
 
 
-## Reference
+## Reference Codes
 [1] [Attention Transfer](https://github.com/szagoruyko/attention-transfer)
 
 [2] [Attention Branch Network](https://github.com/machine-perception-robotics-group/attention_branch_network)
